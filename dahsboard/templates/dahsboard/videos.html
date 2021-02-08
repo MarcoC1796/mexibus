@@ -4,16 +4,22 @@
 <br>
 
 <div class="row">
-    <div class="col-6">
+    <div class="col-4">
         <h2>Toma Dron</h2>
         <video height="350" controls autoplay>
-            <source src="/static/videos/linea_a_seccion_1.mp4" type="video/mp4">
+            <source src="/static/videos/video_dron_{{ linea }}.mp4" type="video/mp4">
         </video>
     </div>
-    <div class="col-6">
-        <h2>Toma Suelo</h2>
+    <div class="col-4">
+        <h2>Toma Suelo dirección A</h2>
         <video height="350" controls autoplay>
-            <source src="/static/videos/linea_a_seccion_1.mp4" type="video/mp4">
+            <source src="/static/videos/video_suelo_{{ linea }}_dir_a.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div class="col-4">
+        <h2>Toma Suelo dirección B</h2>
+        <video height="350" controls autoplay>
+            <source src="/static/videos/video_suelo_{{ linea }}_dir_b.mp4" type="video/mp4">
         </video>
     </div>
 </div>
