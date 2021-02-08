@@ -1,2 +1,4 @@
 static/
 migrate_data.py
+.vscode/
+datos_temp/
