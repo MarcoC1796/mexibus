@@ -1,4 +1,5 @@
-static/
+static/pdf/
+static/videos
 migrate_data.py
 .vscode/
 datos_temp/
