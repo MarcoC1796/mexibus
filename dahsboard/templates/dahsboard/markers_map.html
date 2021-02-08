@@ -1,0 +1,8 @@
+{% extends "dahsboard/sidebar.html" %}
+{% load static %}
+{% block content %}
+    <br>
+    <h2 value="{{ linea }}" id="marker_line">Inventario Línea: {{ linea }}<h2>
+    <div id="mapid" style="height: 45rem;"></div>
+    <script src="{% static 'dahsboard/scripts/markers_map.js' %}" type="text/javascript"></script>  
+{% endblock content %}
