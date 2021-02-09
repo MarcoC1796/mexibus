@@ -11,4 +11,4 @@ Este aplicación consiste de 3 partes principales:
 La aplicación se desarrollo con 5 teconologías. Para el Frontend se utilizó `HTML 5`, `CSS` y `Javascript`.
 El Backend se desarrollo utilizando `Python` junto con el Framework Web `DJANGO` y una base de datos SQL que utiliza `SQLITE` como DBMS.
 Complementario a `JavaScript` se utilizó la libreria de `LeafLet` para crear las visualizaciones geográficas. Los datos utilizados para estas 
-visualizaciones estan en archivos GeoJson que el backend formatea y el frontend llama a la API vara mostrar los datos.
+visualizaciones estan en archivos GeoJson que el backend formatea y el frontend llama a la API para mostrar los datos.
