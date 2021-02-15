@@ -14,8 +14,13 @@ Complementario a `JavaScript` se utilizó la libreria de `LeafLet` para crear la
 visualizaciones estan en archivos GeoJson que el backend formatea y el frontend llama a la API para mostrar los datos.
 
 ***
+## Estructura de los archivos estáticos
 
-# Uso en ambiento de desarrollo
+![Drag Racing](staticImage.png)
+
+***
+
+## Uso en ambiento de desarrollo
 
 1. Instalar [python](https://www.python.org/downloads/) para el sistema operativo correspondiente. 
 2. Crear un ambiente virutal de desarrollo utilizando [`virtualenv`](https://docs.python.org/3/tutorial/venv.html).
